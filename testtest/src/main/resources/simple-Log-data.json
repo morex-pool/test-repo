@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": "101",
+    "date": "2020-06-12 12:18:45:00",
+    "event": {
+      "event_id": "add user",
+      "data": "the user try to add new user to application"
+    }
+  },
+  {
+    "user_id": "101",
+    "date": "2020-06-13 12:18:45:69",
+    "event": {
+      "event_id": "update user",
+      "data": "end user try to update ..."
+    }
+  },
+  {
+    "user_id": "101",
+    "date": "2020-06-14 12:18:47:55",
+    "event": {
+      "event_id": "delete user",
+      "data": "end user try to delete ...."
+    }
+  }
+]
