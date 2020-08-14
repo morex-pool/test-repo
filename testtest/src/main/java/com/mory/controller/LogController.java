@@ -15,7 +15,7 @@ public class LogController {
     private LogService logService;
 
     @GetMapping(path = "/{userId}")
-    public Log getByUserId(@PathVariable("userId") String userId) {
+    public List<Log> getByUserId(@PathVariable("userId") String userId) {
         return logService.findByUserId(userId);
     }
 

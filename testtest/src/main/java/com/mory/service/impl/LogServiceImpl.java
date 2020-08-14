@@ -14,7 +14,7 @@ public class LogServiceImpl implements LogService {
 	@Autowired
 	private LogRepository logRepository;
 
-	public Log findByUserId(String userId) {
+	public List<Log> findByUserId(String userId) {
 		return logRepository.findByUserId(userId);
 	}
 
